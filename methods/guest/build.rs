@@ -5,5 +5,5 @@ fn main() {
   //                  .object("src/randomx_united.o")
   //                  .object("/opt/riscv/riscv32-unknown-elf/lib/libc.a")
   //                  .cpp_link_stdlib("/opt/riscv/riscv32-unknown-elf/lib/libstdc++.a")
-                    .compile("addxx");
+                    .compile("addxx_3");
 }

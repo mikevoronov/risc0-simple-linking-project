@@ -12,6 +12,11 @@ extern "C" {
     //fn randomx_get_flags() -> u32;
 }
 
+#[no_mangle]
+pub extern "C" fn _sbrk(shift: u32) -> u32 {
+    0
+}
+
 pub fn main() {
     let result = unsafe { addxx(1, 2) };
     println!("{}", result);

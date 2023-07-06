@@ -1,6 +1,8 @@
 #include <cstdlib>
+#include <string>
 
 extern "C" int addxx(int a, int b) {
-   return (int)malloc(a + b);
+   std::string s = "some random"; 
+   return s.length() + a + b;
 }
 
