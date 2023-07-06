@@ -3,3 +3,5 @@
 /opt/riscv/bin/riscv32-unknown-elf-ld main.o /opt/riscv/riscv32-unknown-elf/lib/libc.a -relocatable -o addxx.o
 
 cp addxx.o ../methods/guest/src
+
+rm *.o
